@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>newsletter</title>
+    <link rel="stylesheet" href="./res/style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div id="main">
+            <div id="stayupd">
+                <h1>Stay Updated!</h1>
+                <p>Join 60,000+ product managers receiving monthly <br> updates on:</p>
+                <ul>
+                    <li>Product discovery and building what matters</li>
+                    <li>Measuring to ensure updates are a success</li>
+                    <li>And much more!</li>
+
+                </ul>
+
+                <label for="text">Email address</label><br>
+                <input id="Input" type="text" placeholder="   ckananelo4@gmail.com"><br><br>
+
+                <button onclick="Subscribe()" id="subscrib">Subscibe to monthly newsletter</button>
+                
+            </div>
+
+            <div id="icon">
+
+                <img src="./src/images/illustration-sign-up-desktop.svg" width="400px" height="400px" alt="">
+
+            </div>
+
+        </div>
+
+        <div id="Thanks">
+            <img id="image" src="./src/images/icon-list.svg" width="50px" height="50px" alt="">
+            
+            <h1 id="h12">Thanks for <br> Subscribing!</h1>
+            <p id="confirmation">
+                A confirmation Email has been sent to <br> <b id="email">ckananelo4@gmail.com.</b> Please open it
+                and click <br> the button inside to confirm your subscribtion.
+            </p>
+            <button onclick="Dismiss()" id="dismiss">Dismiss message</button>
+        </div>
+
+    </div>
+
+    <script src="./java.js"></script>
+
+</body>
+
+</html>
